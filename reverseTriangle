@@ -1,0 +1,19 @@
+import java.io.*;
+public class reverseTriangle
+{
+  public static void main(String [] args)
+  {
+    for( int f=1; f<=5; f++)
+    {
+      for(int b=1; b<f; b++)
+      {
+        System.out.print(" ");
+      }
+      for (int k=5; k>=f; k--)
+      {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+  }
+}
